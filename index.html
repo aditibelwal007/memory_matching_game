@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Matching Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Memory Matching Game</h1>
+
+  <div class="status-bar">
+    <span id="moves">Moves: 0</span>
+    <span id="timer">Time: 0s</span>
+    <span id="stars">⭐️⭐️⭐️</span>
+  </div>
+
+  <div class="controls">
+    <button id="restart">🔄 Restart</button>
+    <button id="hint">💡 Hint</button>
+    <button id="pause">⏸️ Pause</button>
+    <button id="sound-toggle">🔊 Sound On</button>
+    <select id="difficulty">
+      <option value="easy">🟢 Easy</option>
+      <option value="medium" selected>🟡 Medium</option>
+      <option value="hard">🔴 Hard</option>
+    </select>
+    <button id="theme-toggle">🌙 Toggle Dark Mode</button>
+  </div>
+
+  <div class="game-board" id="game-board"></div>
+
+  <div id="game-over" class="hidden">
+    <h2>🎉 You Won!</h2>
+    <p id="summary"></p>
+    <button onclick="createBoard()">Play Again</button>
+  </div>
+
+  <div id="leaderboard">
+    <h3>🏅 Leaderboard (Top 5)</h3>
+    <ol id="leaderboard-list"></ol>
+  </div>
+
+  <!-- Sound Effects -->
+  <audio id="flip-sound" src="sounds/flip.mp3" preload="auto"></audio>
+  <audio id="match-sound" src="sounds/match.mp3" preload="auto"></audio>
+  <audio id="win-sound" src="sounds/win.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
