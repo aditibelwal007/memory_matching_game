@@ -1,6 +1,9 @@
 # 🧠 Memory Matching Game
 A modern and interactive **Memory Matching Game** built using **HTML**, **CSS**, and **JavaScript**. Enhance your focus and memory skills by flipping cards to match identical emojis. The game includes sound effects, dark/light mode, multiple difficulty levels, and a leaderboard powered by localStorage.
 
+<img width="1886" height="907" alt="image" src="https://github.com/user-attachments/assets/a59b58f5-760a-4d43-be9a-cc271238fb0b" />
+
+
 ---
 
 ## 🔗 Live Demo
