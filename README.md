@@ -8,7 +8,7 @@ A modern and interactive **Memory Matching Game** built using **HTML**, **CSS**,
 
 ## 🔗 Live Demo
 
-> 🕹️ [Click here to play the game](https://your-live-demo-link.com)
+> 🕹️ [Click here to play the game](https://aditibelwal007.github.io/memory_matching_game/)
 ---
 
 ## ✨ Features
